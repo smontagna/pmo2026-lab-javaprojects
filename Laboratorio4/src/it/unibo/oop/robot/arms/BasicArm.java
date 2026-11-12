@@ -1,9 +1,9 @@
-package it.unibo.oop.robot.base.arms;
+package it.unibo.oop.robot.arms;
 
 public class BasicArm 
 {
-	private static final double CONSUPTION_FOR_PICK_UP = 10.0;
-	private static final double CONSUPTION_FOR_DROP_DOWN = 10.0;
+	private static final double CONSUPTION_FOR_PICK_UP = 1.5;
+	private static final double CONSUPTION_FOR_DROP_DOWN = 2.0;
 	private boolean isGrabbing;
 	private String name;
 	
@@ -38,6 +38,7 @@ public class BasicArm
 	{
 		return CONSUPTION_FOR_DROP_DOWN;
 	}
+	
 	
 	@Override
 	public String toString()

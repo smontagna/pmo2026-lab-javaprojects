@@ -6,7 +6,7 @@ package it.unibo.oop.robot.test;
  */
 public final class TestComposableRobot {
 
-    private static final int CYCLES = 200;
+    //private static final int CYCLES = 200;
 
     private TestComposableRobot() {
     }
