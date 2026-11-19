@@ -1,23 +1,17 @@
 package it.unibo.oop.jcf.ex1;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
-/**
- * Example class using {@link java.util.Collection}.
- *
- */
-public final class UseCollection {
+public final class UseCollection 
+{
 
-    private UseCollection() {
+    private UseCollection() 
+    {
+    	
     }
 
-    /**
-     * @param args
-     *            unused
-     */
     public static void main(final String[] args) {
 
         /*
@@ -26,7 +20,8 @@ public final class UseCollection {
          * If we use `var` instead of specifying Collection<Integer> what type
          * will `coll` have?
          */
-        final Collection<Integer> coll = new ArrayList<>();
+        
+    	final Collection<Integer> coll = new ArrayList<>();
         coll.addAll(Arrays.asList(1, 3, 5, 7, 9, 11)); // var-args
         System.out.println(coll); // [1, 3, 5, 7, 9, 11]
 
